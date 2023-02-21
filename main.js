@@ -9,8 +9,8 @@ class character {
     this.score = 0;
   }
 
-  get img() {
-    return `<img src=../img/${this.name}.jfif class = "character-img " id="${this.name}"/>`;
+  img() {
+    return `<img src=./../img/${this.name}.jfif class = "character-img " id="${this.name}"/>`;
   }
 
   randomLives() {
@@ -22,7 +22,7 @@ class character {
   }
 
   display() {
-    $('.character-all').append(this.img);
+    $('.character-all').append(this.img());
   }
 
   attack(bP, idNum) {
@@ -49,7 +49,7 @@ class character {
   }
 
   set(idNum) {
-    $('.player-img-' + idNum).html(this.img);
+    $('.player-img-' + idNum).html(this.img());
     $('.player-' + idNum + '-live').text(this.lives);
     $('.player-' + idNum + '-power').text(this.power);
   }
