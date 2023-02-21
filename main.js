@@ -44,6 +44,7 @@ class character {
     if (this.lives < 0) {
       alert('You Win!!');
       this.score++;
+      $('.player-1-score').text(this.score);
       this.lives = 0;
       $('.player-2-live').text(this.lives);
     }
@@ -97,5 +98,4 @@ $('.btn-attack').click(function () {
     attacker.loss();
     defender.win();
     }
-  $('.player-1-score').text(attacker.score);
 });
