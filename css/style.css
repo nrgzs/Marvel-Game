@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px 20px;
+  margin: 20px 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-image: url(./../img/background.jpg);
+  background-size: cover;
+}
+
+main {
+  padding: 20px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header {
+  padding: 15px;
+  background-color: rgb(214, 0, 0);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.character-img,
+.character-img-second {
+  width: 150px;
+  border: 2px solid rgb(214, 0, 0);
+}
+.character-img:hover,
+.character-img:active {
+  border: 5px solid darkblue;
+}
+
+h2 {
+  background-color: #ef790c;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.player-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.player {
+  margin: 20px 20px;
+  padding: 10px;
+}
+
+.btn-attack {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #ef790c;
+}
+
+.btn-attack:hover,
+.btn-attack:active {
+  background-color: darkblue;
+  color: white;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.player-1-info {
+  padding: 10px;
+  margin: 0 20px;
+}
+.player-2-info {
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.score {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin: 20px auto;
+}

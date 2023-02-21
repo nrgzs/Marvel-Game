@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      defer
+    ></script>
+    <script src="./main.js" defer></script>
+    <title>Marvel Game</title>
+  </head>
+  <body>
+    <header><h1>MARVEL UNIVERSE</h1></header>
+    <main>
+      <div class="character-all"></div>
+      <div class="defenders"></div>
+      <section class="player-section">
+        <div class="player player-1">
+          <h2 class="select-attacker">Attacker</h2>
+          <div class="player-img-1"></div>
+        </div>
+        <div class="player player-2">
+          <h2 class="select-defender">Defender</h2>
+          <div class="player-img-2"></div>
+        </div>
+      </section>
+
+      <div class="info">
+        <div class="player-1-info">
+          <h2>Lives <span class="player-1-live"></span></h2>
+          <h2>Power <span class="player-1-power"></span></h2>
+        </div>
+        <div class="player-2-info">
+          <h2>Lives <span class="player-2-live"></span></h2>
+          <h2>Power <span class="player-2-power"></span></h2>
+        </div>
+      </div>
+      <h2 class="score">Score <span class="player-1-score"></span></h2>
+      <div class="attack"><button class="btn-attack">Attack</button></div>
+    </main>
+  </body>
+</html>
