@@ -96,6 +96,6 @@ $('.btn-attack').click(function () {
     defender.attack(attacker.power, 2);
     attacker.loss();
     defender.win();
-    $('.player-1-score').text(this.score);
-  }
+    }
+  $('.player-1-score').text(this.score);
 });
