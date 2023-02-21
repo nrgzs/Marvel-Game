@@ -10,7 +10,7 @@ class character {
   }
 
   get img() {
-    return `<img src=.//img/${this.name}.jfif class = "character-img " id="${this.name}"/>`;
+    return `<img src=../img/${this.name}.jfif class = "character-img " id="${this.name}"/>`;
   }
 
   randomLives() {
